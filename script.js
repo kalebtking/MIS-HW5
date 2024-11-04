@@ -5,11 +5,11 @@ function displayGreeting() {
     let greeting = "";
 
     if (hours < 12) {
-        greeting = "Good Morning!";
+        greeting = "Good Morning";
     } else if (hours < 18) {
-        greeting = "Good Afternoon!";
+        greeting = "Good Afternoon";
     } else {
-        greeting = "Good Evening!";
+        greeting = "Good Evening";
     }
 
     document.getElementById("greeting").innerText = greeting;
