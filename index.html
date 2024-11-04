@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Test Interactive Page</h1>
+        <button onclick="toggleTheme()">Toggle Theme</button>
+    </header>
+
+    <main>
+        <section id="greeting-section">
+            <h2 id="greeting"></h2>
+        </section>
+
+        <section id="age-calculator">
+            <h3>Calculate Your Age</h3>
+            <label for="birthYear">Enter Your Birth Year:</label>
+            <input type="number" id="birthYear" placeholder="e.g., 1990">
+            <button onclick="calculateAge()">Calculate Age</button>
+            <p id="age-result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Interactive Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
